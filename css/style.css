@@ -1,0 +1,111 @@
+body{
+	font-family: 'Roboto';
+}
+
+.repeat-cs{
+	list-style-type: none;
+	padding: 0;
+	margin-top: 20px;
+}
+
+.repeat-cs li{
+	padding: 10px;
+	border-radius: 4px;
+	margin: 2px;
+}
+
+.section-wrapper{
+	width: 90%;
+	height: auto;
+	padding: 20px;
+	border: 4px;
+	border: 1px solid #E0E0E0;
+	box-shadow: 1px 2px 3px #B5B5B5;
+	margin: 0 auto;
+	margin: 20px;
+	overflow: hidden;
+}
+
+.blue{
+	background-color: #00BFFF;
+}
+
+.green{
+	background-color: #00FF8C;
+}
+
+.list_item.ng-leave{
+  -webkit-animation: slideOutRight 0.5s;
+  -moz-animation: slideOutRight 0.5s;
+  -ms-animation: slideOutRight 0.5s;
+  animation: slideOutRight 0.5s;
+}
+
+button{
+	background-color: #3F6F99;
+	border: none;
+	outline: none;
+	font-weight: 700;
+	border-radius: 4px;
+	width: 100px;
+	height: 50px;
+	color: white;
+	font-size: 1em;
+	margin-top: 10px;
+	transition: all 0.1s ease-in-out;
+}
+
+button:active{
+	background-color: #164A78;
+}
+
+.showing-text{
+	display: inline-block;
+}
+
+.showing-text.ng-enter, .toast.ng-enter{
+  -webkit-animation: bounceIn 0.5s;
+  -moz-animation: bounceIn 0.5s;
+  -ms-animation: bounceIn 0.5s;
+  animation: bounceIn 0.5s;
+}
+
+.showing-text.ng-leave, .toast.ng-leave{
+  -webkit-animation: bounceOut 0.5s;
+  -moz-animation: bounceOut 0.5s;
+  -ms-animation: bounceOut 0.5s;
+  animation: bounceOut 0.5s;
+}
+
+.toast{
+	display: inline-block;
+	margin: 50px;
+	padding: 20px;
+	width: 400px;
+	border-radius: 4px;
+}
+
+.toast.success{
+	background-color: #69DBA6;
+	border: 1px solid #4BC98E;
+	color: #197047;
+}
+
+.toast.warning{
+	background-color: #E6E38E;
+	border: 1px solid #D1CE6D;
+	color: #737020;
+}
+
+.toast.error{
+	background-color: #F0C9D2;
+	border: 1px solid #C98F9D;
+	color: #823E4E;
+}
+
+.toast.info{
+	background-color: #74CBE8;
+	border: 1px solid #60C0E0;
+	color: #125C75;
+}
+
